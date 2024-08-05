@@ -1,0 +1,14 @@
+{
+  "name": "js-calender",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "sass": "sass --watch --no-source-map scss/style.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
