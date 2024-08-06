@@ -7,35 +7,12 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>フォームバリデーションとカレンダー</h1>
-    <form action="" method="post">
-      <div>
-        <label for="name">お名前</label>
-        <input type="text" id="name" name="name" />
-      </div>
-      <div>
-        <label for="email">メールアドレス</label>
-        <input type="mail" id="email" name="email" />
-      </div>
-      <div>
-        <label for="tel">電話番号</label>
-        <input type="tel" id="tel" name="tel" />
-      </div>
-      <div>
-        <label for="address">住所</label>
-        <input type="text" id="address" name="address" />
-      </div>
-      <div>
-        <label for="preferred-date">希望日</label>
-        <input type="text" id="preferred-date" name="preferred-date" />
-        <div id="calendar" class="calendar"></div>
-      </div>
-      <div>
-        <label for="message">その他</label>
-        <textarea id="message" name="message"></textarea>
-      </div>
-      <input type="submit" value="送信する" />
-    </form>
+    <h1>カレンダー</h1>
+    <div>
+      <label for="preferred-date">希望日</label>
+      <input type="text" id="preferred-date" name="preferred-date" placeholder="日付を選択" />
+      <div id="calendar" class="calendar"></div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
